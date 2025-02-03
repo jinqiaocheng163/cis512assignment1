@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather App UI (Emoji Version)</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="temperature-container">
+      <h1 class="temp-value">75°</h1>
+    </div>
+
+    <div class="hl-container">
+      <span>H: 80°</span>
+      <span class="temp-icon-emoji">☁️</span>
+      <span>L: 60°</span>
+    </div>
+
+    <div class="apparent-temp">
+      apparent temperature : 72°
+    </div>
+
+    <div class="hourly-container">
+      <div class="hourly-row">
+        <span>7:00</span>
+        <span>8:00</span>
+        <span>9:00</span>
+        <span>10:00</span>
+        <span>11:00</span>
+      </div>
+      <div class="hourly-row">
+        <span>☁️</span>
+        <span>☁️</span>
+        <span>☁️</span>
+        <span>☁️</span>
+        <span>☁️</span>
+      </div>
+      <div class="hourly-row">
+        <span>63°</span>
+        <span>68°</span>
+        <span>73°</span>
+        <span>75°</span>
+        <span>76°</span>
+      </div>
+
+      <div class="hourly-row">
+        <span>12:00</span>
+        <span>13:00</span>
+        <span>14:00</span>
+        <span>15:00</span>
+        <span>16:00</span>
+      </div>
+      <div class="hourly-row">
+        <span>☁️</span>
+        <span>☁️</span>
+        <span>☁️</span>
+        <span>☁️</span>
+        <span>☁️</span>
+      </div>
+      <div class="hourly-row">
+        <span>77°</span>
+        <span>80°</span>
+        <span>78°</span>
+        <span>76°</span>
+        <span>75°</span>
+      </div>
+    </div>
+
+    <div class="forecast-container">
+      <div class="forecast-title">Forecast:</div>
+      
+      <div class="forecast-day">
+        <div class="day-name">Tue</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/06/24</div>
+        <div class="day-high-low">H: 85° | L: 63°</div>
+      </div>
+      
+      <div class="forecast-day">
+        <div class="day-name">Wed</div>
+        <div class="day-emoji">☁️</div>
+        <div class="day-date">2024/06/25</div>
+        <div class="day-high-low">H: 79° | L: 58°</div>
+      </div>
+      
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">🌧️</div>
+        <div class="day-date">2024/06/26</div>
+        <div class="day-high-low">H: 72° | L: 55°</div>
+      </div>
+      
+      <div class="forecast-day">
+        <div class="day-name">Fri</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/06/27</div>
+        <div class="day-high-low">H: 82° | L: 63°</div>
+      </div>
+      
+      <div class="forecast-day">
+        <div class="day-name">Sat</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/06/28</div>
+        <div class="day-high-low">H: 81° | L: 62°</div>
+      </div>
+    
+      <div class="forecast-day">
+        <div class="day-name">Sun</div>
+        <div class="day-emoji">⛅</div>
+        <div class="day-date">2024/06/29</div>
+        <div class="day-high-low">H: 77° | L: 60°</div>
+      </div>
+    
+      <div class="forecast-day">
+        <div class="day-name">Mon</div>
+        <div class="day-emoji">🌧️</div>
+        <div class="day-date">2024/06/30</div>
+        <div class="day-high-low">H: 70° | L: 57°</div>
+      </div>
+      
+      <div class="forecast-day">
+        <div class="day-name">Tue</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/07/01</div>
+        <div class="day-high-low">H: 80° | L: 62°</div>
+      </div>
+    
+      <div class="forecast-day">
+        <div class="day-name">Wed</div>
+        <div class="day-emoji">☁️</div>
+        <div class="day-date">2024/07/02</div>
+        <div class="day-high-low">H: 78° | L: 60°</div>
+      </div>
+    
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">🌧️</div>
+        <div class="day-date">2024/07/03</div>
+        <div class="day-high-low">H: 73° | L: 58°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">🌧️</div>
+        <div class="day-date">2024/07/04</div>
+        <div class="day-high-low">H: 77° | L: 59°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/07/05</div>
+        <div class="day-high-low">H: 75° | L: 58°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/07/06</div>
+        <div class="day-high-low">H: 78° | L: 58°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/07/07</div>
+        <div class="day-high-low">H: 79° | L: 61°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">☁️</div>
+        <div class="day-date">2024/07/08</div>
+        <div class="day-high-low">H: 78° | L: 55°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">🌧️</div>
+        <div class="day-date">2024/07/09</div>
+        <div class="day-high-low">H: 74° | L: 55°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/07/10</div>
+        <div class="day-high-low">H: 75° | L: 58°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">☀️</div>
+        <div class="day-date">2024/07/11</div>
+        <div class="day-high-low">H: 76° | L: 58°</div>
+      </div>
+
+      <div class="forecast-day">
+        <div class="day-name">Thr</div>
+        <div class="day-emoji">☁️</div>
+        <div class="day-date">2024/07/12</div>
+        <div class="day-high-low">H: 75° | L: 57°</div>
+      </div>
+    </div>
+    
+
+    <div class="bottom-plus">
+      <img src="button.png" alt="Plus Button" />
+    </div>
+  </div>
+</body>
+</html>

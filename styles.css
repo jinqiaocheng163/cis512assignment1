@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+  background-color: #000000; 
+}
+
+.container {
+  width: 430px;
+  height: 932px; 
+  margin: 0 auto;
+  position: relative;
+  background: url("background.jpg");
+  background-size: cover;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.temperature-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.temp-value {
+  font-size: 130px;
+  font-weight: 200;
+}
+
+.temp-icon-emoji {
+  font-size: 24px; 
+  line-height: 1;
+}
+
+.hl-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.apparent-temp {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+
+.hourly-container {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.hourly-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.forecast-container {
+  max-height: 380px;         
+  overflow-y: auto;
+}
+
+
+.forecast-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.forecast-title {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.forecast-day {
+  display: grid;
+  grid-template-columns: 60px 60px 120px 120px;
+  gap: 11px;
+  margin-bottom: 12px;
+}
+
+.day-name {
+  font-size: 16px;
+}
+
+.day-emoji {
+  font-size: 20px;
+}
+
+.day-date {
+  font-size: 16px;
+}
+
+.day-high-low {
+  font-size: 16px;
+}
+
+.bottom-plus {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bottom-plus img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
